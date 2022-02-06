@@ -1,20 +1,22 @@
-@import url('./partials/_variables.css');
 @import url('./fonts.css');
 @import url('./circle_progress.css');
 
-/* body {
-    background: url('../images/3.jpg') center/cover no-repeat fixed;
-} */
+html, body {
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
 
 header {
-    background: var(--gradient-color);
+    background: #267677;
     z-index: 1;
 }
 
 .nav-item .nav-link {
-    font: normal 500 17px/2px var(--Z003);
+    font: normal 500 17px/2px 'Z003';
     text-transform: uppercase;
-    background: var(--gradient-color);
+    background: #267677;
 }
 
 #home {
