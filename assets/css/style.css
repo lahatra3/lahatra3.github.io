@@ -1,0 +1,76 @@
+@import url('./partials/_variables.css');
+@import url('./fonts.css');
+@import url('./circle_progress.css');
+
+/* body {
+    background: url('../images/3.jpg') center/cover no-repeat fixed;
+} */
+
+header {
+    background: var(--gradient-color);
+    z-index: 1;
+}
+
+.nav-item .nav-link {
+    font: normal 500 17px/2px var(--Z003);
+    text-transform: uppercase;
+    background: var(--gradient-color);
+}
+
+#home {
+    background: #0b7cfd;
+    color: white;
+}
+
+#home, #formation, #competence, #experience, #portfolio, #cv, #contact {
+    transition: scale 0.7s;
+}
+
+#home:hover, 
+#formation:hover, 
+#competence:hover, 
+#experience:hover, 
+#portfolio:hover,
+#cv:hover,
+#contact:hover {
+    background: #03595a;
+    scale: 1.05;
+    text-decoration: underline;
+}
+
+main {
+    background: rgba(255, 255, 255, 1.0);
+    ;
+}
+
+#nom {
+    color: #267677;
+    font-family: 'Z003';
+}
+
+#photo {
+    transition: scale 0.7s;
+}
+
+#photo:hover {
+    scale: 1.03;
+    box-shadow: 1px 1px 11px #d2d8d8;
+}
+
+.card {
+    transition: scale 0.7s;
+}
+
+.carte:hover .card {
+    scale: 1.05;
+    box-shadow: 1px 1px 11px #d2d8d8;
+}
+
+#devise {
+    color: #267677;
+}
+
+#developer {
+    color: rgba(5, 176, 228, 0.823);
+    font-family: 'console';
+}

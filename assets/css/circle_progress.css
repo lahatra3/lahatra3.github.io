@@ -1,0 +1,86 @@
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.outer {
+    width: 110px;
+    height: 110px;
+    position: relative;
+    border-radius: 50%;
+    padding: 14.5px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.inner {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1.0),
+                0.5px 0.5px 0px rgba(0, 0, 0, 0.1),
+                0px 12px 10px -10px rgba(0, 0, 0, 0.1);
+}
+
+.nombre {
+    font-weight: 600px;
+    color: #555;
+}
+
+#_php circle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 14.5px;
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    animation: php 1.3s linear forwards;
+}
+
+#_python circle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 14.5px;
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    animation: python 1.3s linear forwards;
+}
+
+#_javascript circle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 14.5px;
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    animation: javascript 1.3s linear forwards;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes php {
+    100% {
+        stroke-dashoffset: 135;
+    }   
+}
+
+@keyframes python {
+    100% {
+        stroke-dashoffset: 195;
+    }
+}
+
+@keyframes javascript {
+    100% {
+        stroke-dashoffset: 225;
+    }
+}
